@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<link rel="stylesheet" href="mycss.css" />
+	<link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+<body>
+
+<div class="container">
+
+		<form action="register.php" method="post" autocomplete="on">
+			<center>
+			
+			<h1> Sign up </h1>
+
+			<p>
+				<label for="emailsignup" class="youmail" data-icon="u"> Your email</label>
+				<input id="emailsignup" name="login" required="required" type="email" placeholder="mail@mymail.ua" />
+			</p>
+			<p>
+				<label for="passwordsignup" class="youpasswd" data-icon="p">Your password </label>
+				<input id="passwordsignup" name="password" required="required" type="password" placeholder="qwerty" />
+			</p>
+			<p>
+				<label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Please confirm your password </label>
+				<input id="passwordsignup_confirm" name="r_password" required="required" type="password" placeholder="qwerty" />
+			</p>
+			<p class="signin button">
+				<input type="submit" name="submit" value="Sign up" />
+			</p>
+			</center>
+        </form>
+		<form action="register.php" method="post" autocomplete="on"> 
+		<div class="registred">
+			<center>
+			<h1>Log in</h1> 
+			<p> 
+			<label for="username" class="uname" data-icon="u" > Your email</label> 
+			<input id="username" name="login_enter" required="required" type="text" placeholder="mail@mymail.ua"/> 
+			</p> 
+			<p> 
+			<label for="password" class="youpasswd" data-icon="p"> Your password </label> 
+			<input id="password" name="password_enter" required="required" type="password" placeholder="qwerty" /> 
+			</p> 
+			<p class="keeplogin"> 
+			<input type="checkbox" name="loginkeeping" id="loginkeeping" value="qwerty" /> 
+			<label for="loginkeeping">Keep me logged in</label> 
+			</p> 
+			<p class="login button"> 
+			<input type="submit" name="enter" value="Login" /> 
+			</p>
+			</center>
+		</div>
+		</form>
+</div>
+
+
+</body>
+</html>

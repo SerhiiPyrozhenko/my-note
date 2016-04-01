@@ -1,0 +1,26 @@
+body{
+	background-image:testBG.jpg;
+}
+div.container{
+		background:url(BGmenu.jpg);
+		padding:0px;
+		margin:0px;
+		z-index:1;
+		width:100%;
+		position:absolute;
+		top:0%;
+		left:0%;
+		bottom:0%;
+		right:0%;	
+}
+div.registred{
+	background-color:green;
+	padding:0px;
+	margin:0px;
+	position:absolute;
+	top:50%;
+	left:0%;
+	right:0%;
+	bottom:0%;
+}	
+
